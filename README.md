@@ -2,6 +2,6 @@
 Sandbox
 
 ## "Hoje"
-+ Chris diz alô.
++ Chris says hello.
 
 
