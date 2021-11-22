@@ -1,2 +1,4 @@
 # Environment variables, never commit this file
 .env
+
+*.class

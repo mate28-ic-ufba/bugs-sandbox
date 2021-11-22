@@ -1,8 +1,7 @@
-# sandbox
-Sandbox
+# Bugs sandbox
 
-## "Hoje"
-+ Chris says hello.
+<p align="center">
+  <img src="./assets/bugs.png" alt="image">
+</p>
 
-## About gitignore
-To ignore files you don't want to commit but still want to keep locally, you can edit the `.gitignore` file adding the name of this file ou folter.
+## Versions
