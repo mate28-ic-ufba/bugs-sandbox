@@ -10,12 +10,23 @@ def mul(a, b):
 def div(a, b):
   return a / b
 
+def test(result, expected):
+  if(result != expected):
+    print("Test FAIL")
+    return False
+  print("Test OK")
+  return True
+
 def main():
-  print(sum(10, 2))
-  print(sub(0, 2))
-  print(sub(2, 10))
-  print(div(10, 2))
-  print(div(10, 0))
-  print(mul(10, 2))
+  testResult = True
+  testResult &= test(sum(10, 2), 12)
+  testResult &= test(sub(0, 2), 2)
+  testResult &= test(sub(2, 10), 8)
+  testResult &= test(div(10, 2), 5)
+  testResult &= test(div(10, 0), None)
+  testResult &= test(mul(10, 2), 20)
+
+  if(not testResult):
+    raise Exception("Nem todos os testes passaram.")
 
 main()
