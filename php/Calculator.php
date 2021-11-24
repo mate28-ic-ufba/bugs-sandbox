@@ -12,10 +12,24 @@ function div($a, $b){
   return $a / $b;
 }
 
-echo sum(10, 2) . "\n";
-echo sub(0, 2) . "\n";
-echo sub(2, 10) . "\n";
-echo div(10, 2) . "\n";
-echo div(10, 0) . "\n";
-echo mul(10, 2) . "\n";
+function test($result, $expected){
+  if($result != $expected){
+    print("Test FAILS\n");
+    return false;
+  }
+  print("Test OK\n");
+  return true;
+}
+
+$testResult = true;
+$testResult &= test(sum(10, 2), 12);
+$testResult &= test(sub(0, 2), 2);
+$testResult &= test(sub(2, 10), 8);
+$testResult &= test(div(10, 2), 5);
+$testResult &= test(div(10, 0), null);
+$testResult &= test(mul(10, 2), 20);
+
+if(!$testResult){
+  throw new Exception("Nem todos os testes passaram.");
+}
 ?>
