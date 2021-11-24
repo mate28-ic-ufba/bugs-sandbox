@@ -1,4 +1,5 @@
 # Bugs sandbox
+![Java workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/java.yml/badge.svg)
 
 <p align="center">
   <img src="./assets/bugs.png" alt="image">
