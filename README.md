@@ -1,6 +1,7 @@
 # Bugs sandbox
 
 Repositório para praticar resolução de bugs.
+
 ![Java workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/java.yml/badge.svg)
 ![Javascript workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/node.js.yml/badge.svg)
 ![Python workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/python.yml/badge.svg)
