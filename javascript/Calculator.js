@@ -14,9 +14,23 @@ function div(a, b) {
   return a / b;
 }
 
-console.log(sum(10, 2));
-console.log(sub(0, 2));
-console.log(sub(2, 10));
-console.log(div(10, 2));
-console.log(div(10, 0));
-console.log(mul(10, 2));
+function test(result, expected) {
+  if (result !== expected) {
+    console.log("Test FAIL");
+    return false;
+  }
+  console.log("Test OK");
+  return true;
+}
+
+let testResult = true;
+testResult &= test(sum(10, 2), 12);
+testResult &= test(sub(0, 2), 2);
+testResult &= test(sub(2, 10), 8);
+testResult &= test(div(10, 2), 5);
+testResult &= test(div(10, 0), null);
+testResult &= test(mul(10, 2), 20);
+
+if (!testResult) {
+  throw Error("Nem todos os testes passaram.");
+}
