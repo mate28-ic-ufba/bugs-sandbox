@@ -1,5 +1,4 @@
 # Bugs sandbox
-![Java workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/java.yml/badge.svg)
 
 <p align="center">
   <img src="./assets/bugs.png" alt="image">
@@ -12,3 +11,9 @@ Este Sandbox serve como um repositório de treinamento que iniciou com códigos 
 As issues existentes não precisam ser as únicas. Podem haver outras melhorias que os alunos podem encontrar e criar novas issues relacionadas a estas melhorias. É um repositório livre para treinarmos nossos conhecimentos.
 
 Have fun!
+
+## Status do projeto
+![Java workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/java.yml/badge.svg)
+![Javascript workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/node.js.yml/badge.svg)
+![Python workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/python.yml/badge.svg)
+![PHP workflow](https://github.com/mate28-ic-ufba/bugs-sandbox/actions/workflows/php.yml/badge.svg)
