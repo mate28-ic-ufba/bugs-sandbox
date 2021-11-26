@@ -3,7 +3,10 @@ function sum(a, b) {
 }
 
 function sub(a, b) {
-  return a - b;
+  if (b > a)
+    return b - a;
+  else
+    return a - b;
 }
 
 function mul(a, b) {
@@ -11,7 +14,6 @@ function mul(a, b) {
 }
 
 function div(a, b) {
-  if (b === 0) return null;
   return a / b;
 }
 
