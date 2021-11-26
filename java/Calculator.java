@@ -7,10 +7,10 @@ public class Calculator {
     return a - b;
   }
 
-	public static Integer div(int a, int b){
-	  if (b == 0) return null;
-	  return a / b;
-	}
+  public static Integer div(int a, int b){
+    if (b == 0) return null;
+    return a / b;
+  }
 
   public static int mul(int a, int b){
     return a * b;
