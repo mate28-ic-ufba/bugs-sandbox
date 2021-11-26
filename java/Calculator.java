@@ -4,6 +4,9 @@ public class Calculator {
   }
 
   public static int sub(int a, int b){
+    if(b > a) {
+        return b - a;
+    }
     return a - b;
   }
 
