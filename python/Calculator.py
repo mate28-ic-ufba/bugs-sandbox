@@ -10,7 +10,7 @@ def mul(a, b):
   return a * b
 
 def div(a, b):
-  if not b:
+  if b == 0:
     return None
   return a / b
 
