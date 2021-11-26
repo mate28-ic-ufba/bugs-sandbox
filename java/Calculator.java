@@ -4,10 +4,14 @@ public class Calculator {
   }
 
   public static int sub(int a, int b){
+    if(b > a) {
+        return b - a;
+    }
     return a - b;
   }
 
-  public static int div(int a, int b){
+  public static Integer div(int a, int b){
+    if (b == 0) return null;
     return a / b;
   }
 

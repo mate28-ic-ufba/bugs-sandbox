@@ -2,15 +2,17 @@ def sum(a, b):
   return a + b
 
 def sub(a, b):
+  if b > a:
+    return b - a
   return a - b
 
 def mul(a, b):
   return a * b
 
 def div(a, b):
-    if b == 0:
-      return None
-    return a / b
+  if not b:
+    return None
+  return a / b
 
 def test(result, expected):
   if(result != expected):

@@ -9,7 +9,10 @@ function mul($a, $b){
   return $a * $b;
 }
 function div($a, $b){
-  return $a / $b;
+  if($b!=0)
+    return $a / $b;
+  else 
+    return null;
 }
 
 function test($result, $expected){
