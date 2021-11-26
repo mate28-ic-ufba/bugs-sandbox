@@ -8,7 +8,9 @@ def mul(a, b):
   return a * b
 
 def div(a, b):
-  return a / b
+    if b == 0:
+      return None
+    return a / b
 
 def test(result, expected):
   if(result != expected):
