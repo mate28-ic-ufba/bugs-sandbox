@@ -1,16 +1,20 @@
-# How to contribute
 
-- Fork the repository.
-- Select the issue you want to be responsible for.
-- Make the necessary changes.
-- Create a pull request and wait for acceptance.
+# Como contribuir
 
-## Commit pattern
+- Primeiro realize o fork do repositório.
+- Informe qual issue você quer ser responsável.
+- Realize as alterações necessárias.
+- Crie um pull request e espere a aceitação.
 
-When performing a commit to fix an issue, you can use the keywords `fix`, `close` followed by the issue ID e.g. `#1` and its description. For example:
+## Padrão de commit
+
+Quando for realizar um commit corrigindo uma issue, você pode utilizar as palavras chave `fix`, `close` seguida do ID da issue e.g. `#1` e então a descrição da issue. Por exemplo:
 
 ```
-"[fix #1]: Fixing division by zero bug."
+"[fix #1]: Corrigindo bug de divisão por zero."
 ```
 
-`#1 the issue code.`
+`#1 seria o código da issue.`
+
+
+
